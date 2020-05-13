@@ -1,16 +1,14 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
 ---
 
-# svelte app
+# Svelte PWA
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This is a Svelte PWA project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/tretapey/svelte-pwa.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit tretapey/svelte-pwa my-svelte-pwa
+cd my-svelte-pwa
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -21,7 +19,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd my-svelte-pwa
 npm install
 ```
 
