@@ -34,6 +34,13 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
 
+## PWA Configuration
+
+- The `service-worker.js` and `manifest.json` files are in the `public` folder.
+- You should update the icons in `/public/images/icons`
+- This PWA is installable, the `/public/scripts/install.js` file has the install configuration. You should change the app name in the `logAppInstalled` function.
+    Note: If you don't want to make the app installable you can remove the script from the `index.html` file in the `public` folder.
+ 
 ## Building and running in production mode
 
 To create an optimised version of the app:
