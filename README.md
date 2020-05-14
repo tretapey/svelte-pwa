@@ -2,7 +2,7 @@
 
 # Svelte PWA
 
-This is a Svelte PWA project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/tretapey/svelte-pwa.
+This is a Progressive Web App (PWA) template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/tretapey/svelte-pwa.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -41,6 +41,8 @@ By default, the server will only respond to requests from localhost. To allow co
 - For an offline experience edit the `/public/offline.html` file.
 - This PWA is installable, the `/public/scripts/install.js` file has the install configuration. You should change the app name in the `logAppInstalled` function.
     Note: If you don't want to make the app installable you can remove the script from the `index.html` file in the `public` folder.
+    
+For more info, this template was make following this [tutorial](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#7)
  
 ## Building and running in production mode
 
