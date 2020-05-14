@@ -42,7 +42,7 @@ By default, the server will only respond to requests from localhost. To allow co
 - This PWA is installable, the `/public/scripts/install.js` file has the install configuration. You should change the app name in the `logAppInstalled` function.
     Note: If you don't want to make the app installable you can remove the script from the `index.html` file in the `public` folder.
     
-For more info, this template was make following this [tutorial](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#7)
+For more info, this template was made following this [tutorial](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#7)
  
 ## Building and running in production mode
 
