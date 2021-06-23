@@ -1,6 +1,6 @@
 {
   "name": "svelte-pwa-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
